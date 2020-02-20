@@ -82,8 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/helium/proprietary/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/helium/proprietary/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/helium/proprietary/lib/libRecoFace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libRecoFace.so \
-    vendor/xiaomi/helium/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
-    vendor/xiaomi/helium/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/helium/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/helium/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/helium/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \

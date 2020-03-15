@@ -2,7 +2,7 @@ on property:init.svc.mediadrm=running
     mkdir /data/vendor/mediadrm 0770 media mediadrm
     start vendor.move_data_sh
 
-service vendor.move_data_sh /vendor/bin/move_widevine_data.sh
+service vendor.move_data_sh /system/bin/move_widevine_data.sh
     class late_start
     user media
     group media mediadrm system

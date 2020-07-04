@@ -1,0 +1,26 @@
+
+
+rm -r proprietary/bin/dpmd
+rm -r proprietary/etc/dpm/dpm.conf 
+rm -r proprietary/etc/init/dpmd.rc  
+rm -r proprietary/etc/permissions/com.qti.dpmframework.xml  
+rm -r proprietary/etc/permissions/dpmapi.xml   
+rm -r proprietary/framework/com.qti.dpmframework.jar 
+rm -r proprietary/framework/dpmapi.jar   
+rm -r proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so  
+rm -r proprietary/lib/libdpmctmgr.so   
+rm -r proprietary/lib/libdpmfdmgr.so   
+rm -r proprietary/lib/libdpmframework.so    
+rm -r proprietary/lib/libdpmtcm.so   
+rm -r proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so   
+rm -r proprietary/lib64/libdpmctmgr.so   
+rm -r proprietary/lib64/libdpmfdmgr.so   
+rm -r proprietary/lib64/libdpmframework.so   
+rm -r proprietary/lib64/libdpmtcm.so   
+rm -r proprietary/vendor/bin/dpmQmiMgr   
+rm -r proprietary/vendor/etc/init/dpmQmiMgr.rc   
+rm -r proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so    
+rm -r proprietary/vendor/lib/libdpmqmihal.so   
+rm -r proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so    
+rm -r proprietary/vendor/lib64/libdpmqmihal.so  
+

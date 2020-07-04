@@ -3,7 +3,7 @@
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 
 #start dpmQmiMgr service
-service dpmQmiMgr /vendor/bin/dpmQmiMgr
+service dpmQmiMgr /system/vendor/bin/dpmQmiMgr
     class main
     user system
     group system

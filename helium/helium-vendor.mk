@@ -77,10 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/helium/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
     vendor/xiaomi/helium/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/helium/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/helium/proprietary/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.fpc.so \
-    vendor/xiaomi/helium/proprietary/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_fpc_tac_shared.so \
-    vendor/xiaomi/helium/proprietary/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/helium/proprietary/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_fpc_tac_shared.so \
     vendor/xiaomi/helium/proprietary/lib/libRecoFace.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libRecoFace.so \
     vendor/xiaomi/helium/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/helium/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
@@ -320,6 +316,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/helium/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/xiaomi/helium/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/helium/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
+
+# FPC to vendor
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/helium/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
+    vendor/xiaomi/helium/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
+    vendor/xiaomi/helium/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
+    vendor/xiaomi/helium/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
